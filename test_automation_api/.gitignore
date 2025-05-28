@@ -1,0 +1,14 @@
+# Ignore environment secrets
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment if created inside here (though usually it's outside or at project root)
+venv/
+.venv/
+
+# Pytest cache
+.pytest_cache/
